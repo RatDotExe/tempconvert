@@ -15,6 +15,34 @@ while again == "y":
 
 	u = raw_input("Whats the Unit? ")
 
+	if u == "C":
+			
+		sfr1 = t * a
+		sfr = int(sfr1)
+		r = sfr + b  
+		
+	if u == "F":
+			
+		sfr1 = temp - b
+		sfr = int(sfr1)
+		tfr = sfr * d
+		fft = int(tfr)
+		r = fft / c
+		
+	if u == "Celcius":
+			
+		sfr1 = t * a
+		sfr = int(sfr1)
+		r = sfr + b  
+		
+	if u == "Fahrenheit":
+			
+		sfr1 = temp - b
+		sfr = int(sfr1)
+		tfr = sfr * d
+		fft = int(tfr)
+		r = fft / c
+
 	if u == "c":
 		
 		sfr1 = t * a
