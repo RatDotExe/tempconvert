@@ -16,16 +16,32 @@ while again == "y":
 	u = raw_input("Whats the Unit? ")
 
 	if u == "c":
+		
 		sfr1 = t * a
 		sfr = int(sfr1)
 		r = sfr + b  
+	
 	if u == "f":
+		
 		sfr1 = temp - b
 		sfr = int(sfr1)
 		tfr = sfr * d
 		fft = int(tfr)
 		r = fft / c
 	
+	if u == "celcius":
+		
+		sfr1 = t * a
+		sfr = int(sfr1)
+		r = sfr + b  
+	
+	if u == "fahrenheit":
+		
+		sfr1 = temp - b
+		sfr = int(sfr1)
+		tfr = sfr * d
+		fft = int(tfr)
+		r = fft / c
 
 	print "Results: ", r
 	again = raw_input("Type y to do another convert. Type n to quit. ")
